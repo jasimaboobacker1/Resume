@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    min-height: 100vh; /* Ensure the body takes up at least the full height of the viewport */
+}
+
+.container {
+    width: 700px;
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin: 70px; /* Adjust this margin as needed */
+}
+
+.upper {
+    height: 200px;
+    /* flex: 1;  */
+    background-color: #b22222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.details {
+    height: 200px;
+    flex: 2; 
+    background-color: #b22222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo {
+    width: 199px;
+    height: 190px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 40px;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%; 
+}
+
+.name {
+    width: auto;
+}
+
+.bodypart{
+    height: auto;
+    background-color: white;
+    display: flex;
+    height: auto;
+    
+}
+
+.right {
+    width: 40%; 
+    display: flex;
+    flex-direction: column;
+    margin: 20px; 
+    padding: 10px;
+}
+
+.left {
+    width: 60%; 
+    margin: 20px; 
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+   
+ 
+}
+.contact-container {
+    font-size: 16px; 
+    display: flex;
+    margin-top: 10px;
+    font-size: 15px;
+
+}
+.dtt{
+    margin-bottom: 5px;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+h4 {
+    margin-bottom: 10px; 
+}
+
+i {
+    margin-right: 10px; 
+  
+}
+.heading{
+    font-family: 'Oswald', sans-serif;
+    color: #b22222;
+}
+
+.hard,.soft{
+    /* margin-left: 17px; */
+    margin-top:  10px; 
+}
+.hardskills,.softskills,.Education{
+    margin-top: 10px;
+}
+
+.list{
+    margin-left: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+
+
